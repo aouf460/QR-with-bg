@@ -21,7 +21,7 @@ def overlay_qr_on_background(qr_path, background_path, output_path, replacement_
     # Save the result
     background.save(output_path, format="PNG")
 
-# Example usage
+    # Execution...
 for i in range(1, 25):
     qr_path = f"../../../Desktop/ROWDAH FRIEND/Report (4)_Page_{i}.png"
     background_path = "../../../../User/Downloads/Henna Event 02.png"
